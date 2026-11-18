@@ -129,19 +129,90 @@ from posixpath import sep
 # elif month==12:
 #     print("december")    
 
-marks =int(input("enter the marks"))
+# marks =int(input("enter the marks"))
 
-if marks >=90 and marks <=100:
-    print("grade a")
+# if marks >=90 and marks <=100:
+#     print("grade a")
 
-elif marks >=80 and marks <90:
-    print("grade b")
+# elif marks >=80 and marks <90:
+#     print("grade b")
 
-elif marks >=70 and marks <80:
-    print("grade c")
-elif marks >=60 and marks <70:
-    print("grade d")
+# elif marks >=70 and marks <80:
+#     print("grade c")
+# elif marks >=60 and marks <70:
+#     print("grade d")
 
-else:
-    print("fail")
-         
+# else:
+#     print("fail")
+
+# character = input("enter the character")
+
+# if character in ['a', 'e', 'i', 'o', 'u']:
+#     print(f"{character} is a vowel")
+
+# else:
+#     print(f"{character} is a consonant")
+
+# num1 =int(input("enter the first number:"))
+# num2 =int(input("enter the second number :"))
+# num3 =int(input("enter the third number :"))         
+# if num1 >num2 and num1>num3:
+#     print(f"{num1} is the greatest number")
+
+# elif num2 >num1 and num2>num3:
+#     print(f"{num2} is the greatest number")
+
+# elif num3 >num1 and num3>num2:
+#     print(f"{num3} is the greatest number")         
+
+# choice = input("Enter your choice (+, -, *, /,//,%,**): ")
+# num1 = float(input("Enter the first number: "))
+# num2 = float(input("Enter the second number: "))
+# if choice == '+':
+#     result = num1 + num2
+#     print(f"The sum of {num1} and {num2} is: {result}")
+# elif choice == '-':
+#     result = num1 - num2
+#     print(f"The difference of {num1} and {num2} is: {result}")
+# elif choice == '*':
+#     result = num1 * num2
+#     print(f"The product of {num1} and {num2} is: {result}")     
+# elif choice == '/': 
+#     if num2 != 0:
+#         result = num1 / num2
+#         print(f"The division of {num1} by {num2} is: {result}")
+#     else:
+#         print("Error: Division by zero is not allowed.")
+
+# elif choice == '//':
+#     if num2 !=0:
+#         result = num1 // num2
+#         print(f"The floor division of {num1} by {num2} is: {result}")
+        
+
+# elif choice == '%':
+#     if num2 !=0:
+#         result = num1 % num2
+#         print(f"The modulus of {num1} by {num2} is: {result}")
+  
+# elif choice == '**':
+#     result = num1 ** num2
+#     print(f"The exponentiation of {num1} to the power of {num2} is: {result}")  
+
+day = int(input("Enter the day of the week (1-7): "))
+
+if day ==1:
+    print("Monday")
+elif day ==2:
+    print("Tuesday")
+elif day ==3:
+    print("Wednesday")
+elif day ==4:
+    print("Thursday")
+elif day ==5:
+    print("Friday")
+elif day ==6:
+    print("Saturday")
+elif day ==7:
+    print("Sunday")    
+ 
